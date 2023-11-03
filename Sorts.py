@@ -20,6 +20,14 @@ class Sorts():
             for j in range(i,0,-1):
                 if arr[j] < arr[j-1]:
                     Sorts.Swap(arr,j,j-1)
+                else:
+                    break
+
+    def Selection(arr:list):
+        for i in range(len(arr)):
+            pass
+                    
+                    
 
 
 
